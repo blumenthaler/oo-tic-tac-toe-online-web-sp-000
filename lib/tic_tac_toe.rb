@@ -73,8 +73,8 @@ class TicTacToe
     false
   end
   
-  def full?(board)
-    !board.any?{|x| x == " "}
+  def full?
+    !@board.any?{|x| x == " "}
   end  
   
   
